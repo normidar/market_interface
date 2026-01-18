@@ -1,5 +1,6 @@
 ---
-dependencies: null
+dependencies:
+  finance_kline_core: ^0.0.3
 description: "'A pkg in Coin Galaxy.'"
 dev_dependencies:
   auto_exporter: ^4.0.0
