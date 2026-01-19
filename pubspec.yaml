@@ -1,6 +1,7 @@
 ---
-dependencies: null
-description: "'A pkg in Coin Galaxy.'"
+dependencies:
+  finance_kline_core: ^0.0.3
+description: '''A interface library for market data providers.'''
 dev_dependencies:
   auto_exporter: ^4.0.0
   build_runner: ^2.6.0
@@ -8,12 +9,12 @@ dev_dependencies:
   very_good_analysis: any
 environment:
   sdk: ^3.0.0
-name: dart_pkg_temp
-homepage: https://github.com/normidar/dart_pkg_temp
+homepage: https://github.com/normidar/market_interface
+name: market_interface
 topics:
-  - a
-  - b
-  - c
-  - d
-  - e
+  - finance
+  - kline
+  - market
+  - data
+  - api
 version: 0.0.1
