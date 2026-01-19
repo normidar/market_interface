@@ -10,6 +10,8 @@ abstract class Market {
     required String instrument,
     required Interval interval,
     required int limit,
+    DateTime? startTime,
+    DateTime? endTime,
   });
 
   Set<Interval> getSupportedIntervals();
